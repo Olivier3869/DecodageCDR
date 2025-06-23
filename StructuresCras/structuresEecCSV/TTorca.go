@@ -1,0 +1,72 @@
+package structuresEecCSV
+
+import "local/structures/defStructs"
+
+// TTorca
+var TTorca = map[int]defStructs.TabRechercheTypeDc{
+	0: {"ORD", 0xff000000, 0x4f000000, 0x3b, &ord},
+	1: {"ORP", 0xff000000, 0x4f000000, 0x3b, &orp},
+}
+
+var ord = map[int]defStructs.Champ{
+	0:  {"Transaction_id", -1, 0, nil},
+	1:  {"Transaction_date", -1, 11, nil},
+	2:  {"Customer_Id", -1, 0, nil},
+	3:  {"Phone_Number", -1, 0, nil},
+	4:  {"Content_Title", -1, 0, nil},
+	5:  {"Content_Sub_Title", -1, 0, nil},
+	6:  {"Content_Format", -1, 0, nil},
+	7:  {"Content_id", -1, 0, nil},
+	8:  {"Asset_Id", -1, 0, nil},
+	9:  {"Page_id", -1, 0, nil},
+	10: {"Provider_id", -1, 0, nil},
+	11: {"Provider_Name", -1, 0, nil},
+	12: {"Price", -1, 0, nil},
+	13: {"Price_excluding_VAT", -1, 0, nil},
+	14: {"Currency", -1, 0, nil},
+	15: {"Catalog_Price", -1, 0, nil},
+	16: {"Payment_method", -1, 0, nil},
+	17: {"Special_Offer_Name_identifier", -1, 0, nil},
+	18: {"Geographic_zone", -1, 0, nil},
+	19: {"Service_label", -1, 0, nil},
+	20: {"Identifier_of_the_SVOD_offer_(if service_label is SVOD)", -1, 0, nil},
+	21: {"Platform_identifier", -1, 0, nil},
+	22: {"Terminal_Info", -1, 0, nil},
+	23: {"CSA_code", -1, 0, nil},
+	24: {"Operator_Service_type", -1, 0, nil},
+	25: {"Quantity", -1, 0, nil},
+	26: {"Unit_price_with_VAT", -1, 0, nil},
+	27: {"Unit_price_excluding_VAT", -1, 0, nil},
+	28: {"Promotion_Id", -1, 0, nil},
+	29: {"Promotion_Info", -1, 0, nil},
+}
+
+var orp = map[int]defStructs.Champ{
+	0:  {"Package_order_id", -1, 0, nil},
+	1:  {"Transaction_date", -1, 11, nil},
+	2:  {"Customer_Id", -1, 0, nil},
+	3:  {"Phone_Number", -1, 0, nil},
+	4:  {"Page_Name", -1, 0, nil},
+	5:  {"Advisory", -1, 0, nil},
+	6:  {"Page_id", -1, 0, nil},
+	7:  {"Content_format", -1, 0, nil},
+	8:  {"Provider_id", -1, 0, nil},
+	9:  {"Provider_Name", -1, 0, nil},
+	10: {"Price_including_VAT", -1, 0, nil},
+	11: {"Price_excluding_VAT", -1, 0, nil},
+	12: {"Currency", -1, 0, nil},
+	13: {"Catalog_Price", -1, 0, nil},
+	14: {"Payment_method", -1, 0, nil},
+	15: {"Special_Offer_Name_identifier", -1, 0, nil},
+	16: {"Geographic_zone", -1, 0, nil},
+	17: {"Platform_identifier", -1, 0, nil},
+	18: {"Terminal_Info", -1, 0, nil},
+	19: {"CSA_code", -1, 0, nil},
+	20: {"Operator_Service_type", -1, 0, nil},
+	21: {"Quantity", -1, 0, nil},
+	22: {"Unit_price_with_VAT", -1, 0, nil},
+	23: {"Unit_price_excluding_VAT", -1, 0, nil},
+	24: {"Service_label", -1, 0, nil},
+	25: {"Promotion_Id", -1, 0, nil},
+	26: {"Promotion_Info", -1, 0, nil},
+}

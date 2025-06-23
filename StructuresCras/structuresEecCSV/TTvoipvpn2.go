@@ -1,0 +1,62 @@
+package structuresEecCSV
+
+import "local/structures/defStructs"
+
+// TTvoipvpn2
+var TTvoipvpn2 = map[int]defStructs.TabRechercheTypeDc{
+
+	0: {"TTvoipvpn2", 0x00000000, 0x00000000, 0x3b, &Tvoipvpn2},
+}
+
+var Tvoipvpn2 = map[int]defStructs.Champ{
+	0:  {"ICAR", -1, 28, nil},
+	1:  {"SEP_ID", -1, 0, nil},
+	2:  {"CDRSTATUS", -1, 0, nil},
+	3:  {"VPNID", -1, 0, nil},
+	4:  {"INDX", -1, 0, nil},
+	5:  {"DURATION", -1, 0, nil},
+	6:  {"TACC", -1, 0, nil},
+	7:  {"CDE", -1, 0, nil},
+	8:  {"NORIG", -1, 0, nil},
+	9:  {"CLI", -1, 0, nil},
+	10: {"ORIGIPADDR", -1, 0, nil},
+	11: {"ORIGUPSTREAMACCESSTYPE", -1, 0, nil},
+	12: {"CGSITEID", -1, 0, nil},
+	13: {"CGSITETYPE", -1, 0, nil},
+	14: {"DECO", -1, 0, nil},
+	15: {"SAP1", -1, 0, nil},
+	16: {"NUM1", -1, 0, nil},
+	17: {"CDSITEID1", -1, 0, nil},
+	18: {"CDSITETYPE1", -1, 0, nil},
+	19: {"SAP2", -1, 0, nil},
+	20: {"NUM2", -1, 0, nil},
+	21: {"CDSITEID2", -1, 0, nil},
+	22: {"CDSITETYPE2", -1, 0, nil},
+	23: {"SAP3", -1, 0, nil},
+	24: {"CDSITEID3", -1, 0, nil},
+	25: {"CDSITETYPE3", -1, 0, nil},
+	26: {"DETA", -1, 0, nil},
+	27: {"DSON", -1, 0, nil},
+	28: {"DESTIPADDR", -1, 0, nil},
+	29: {"DOWNSTREAMACCESSTYPE", -1, 0, nil},
+	30: {"INEF", -1, 0, nil},
+	31: {"DISC", -1, 0, nil},
+	32: {"CALLID", -1, 0, nil},
+	33: {"CALLTYPE", -1, 0, nil},
+	34: {"OFFNETROUTINGSITE", -1, 0, nil},
+	35: {"IVRTERMINATED", -1, 0, nil},
+	36: {"IVRMSG", -1, 0, nil},
+	37: {"IVRADDR", -1, 0, nil},
+	38: {"IVRREPLACEDCLI", -1, 0, nil},
+	39: {"TEXT_1", -1, 0, nil},
+	40: {"TEXT_2", -1, 0, nil},
+	41: {"DTOAPPLIED", -1, 0, nil},
+	42: {"CALLEDSITECC", -1, 0, nil},
+	43: {"CALLEDPREFIX", -1, 0, nil},
+	44: {"CALLEDPUBLICNUMBER", -1, 0, nil},
+	45: {"PUBNDI", -1, 0, nil},
+	46: {"CALLEDNDI", -1, 0, nil},
+	47: {"ORIGT1T7", -1, 0, nil},
+	48: {"PAI", -1, 0, nil},
+	49: {"ORIGRECEIVEDNUMBER", -1, 0, nil},
+}
