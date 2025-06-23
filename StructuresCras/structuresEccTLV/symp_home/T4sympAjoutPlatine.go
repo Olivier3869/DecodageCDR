@@ -1,0 +1,41 @@
+package symp_home
+
+import "local/structures/defStructs"
+
+// T4sympAjoutPlatine
+var T4sympAjoutPlatine = map[int]defStructs.Champ{
+	0x00: {"CCD", -1, -1, nil},
+	0x50: {"SGTQS", -1, 1, nil},
+	0x51: {"ECC_FACT", -1, 1, nil},
+	0x52: {"IEZLT", -1, -1, nil},
+	0x53: {"DATE_LOCALE", -1, -1, nil},
+	0x54: {"CODCIRDR", -1, 1, nil},
+	0x55: {"CODCIR", -1, 1, nil},
+	0x56: {"TAX1", -1, -1, nil},
+	0x57: {"TAX2", -1, -1, nil},
+	0x58: {"TAXV", -1, -1, nil},
+	0x59: {"DURFACT", -1, -1, nil},
+	0x5a: {"TYPACCRITYPACCRI", -1, 1, nil},
+	0x5b: {"NATAPPRI", -1, 1, nil},
+	0x60: {"EFFICACITE", -1, -1, nil},
+	0x61: {"CALL_TYPE", -1, 1, nil},
+	0x62: {"DETR_INF", -1, -1, nil},
+	0x63: {"IDUS_INF", -1, -1, nil},
+	0x64: {"ND_RTC_42L", -1, 1, nil},
+	0x65: {"OFFRE_DDEUR", -1, 1, nil},
+	0x66: {"OFFRE_DEDE", -1, 1, nil},
+	0x67: {"NBCOD", -1, -1, nil},
+	0x68: {"CSV1", -1, 1, nil},
+	0x69: {"CSV2", -1, 1, nil},
+	0x6a: {"CSV3", -1, 1, nil},
+	0x6b: {"CSV4", -1, 1, nil},
+	0x6c: {"CSV5", -1, 1, nil},
+	0x6d: {"OPE_VGA", -1, 1, nil},
+	0x6e: {"OFF_VGA", -1, 1, nil},
+	0x6f: {"DEDE_FRT", -1, 1, nil},
+	0x70: {"SCOM", -1, 1, nil},
+	0x71: {"SERV", -1, 1, nil},
+	0x72: {"TYPCOM", -1, -1, nil},
+	0x73: {"TYPE_EDIT", -1, 1, nil},
+	0x74: {"CODE_TARIF", -1, 1, nil},
+}
